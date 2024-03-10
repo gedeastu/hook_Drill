@@ -39,7 +39,11 @@ useEffect(()=>{
     <img src={image} alt="" width={"100px"}/>
     <h1>{desc}</h1>
     <button onClick={()=>{setStatus((previous)=>previous+1)}} ref={ref}>Click</button>
+    <br />
+    <br />
     <input ref={ref} type="text" />
+    <br />
+    <br />
     </>
   )
 } 
