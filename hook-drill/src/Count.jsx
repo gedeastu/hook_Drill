@@ -15,7 +15,6 @@ function Count() {
   },[count])
 
 
-
   //and if [] array is has value from state or anywhere, 
   //the console will render while the action is triggered
   //   useEffect(()=>{
@@ -25,8 +24,15 @@ function Count() {
     <>
     <h1>{desc}</h1>
 
-    <button onClick={()=>{setCount((previous)=>(previous != 10) ? previous+1:previous)}}>+</button>
-    <button onClick={()=>{setCount((previous)=>(previous != 0) ? previous-1:previous)}}>-</button>
+    <button onClick={()=>{
+      setCount((previous)=>(previous != 10) ? previous+1:previous)
+      //console.log(count)
+    }}>+</button>
+    <button onClick={()=>{
+      setCount((previous)=>(previous != 0) ? previous-1:previous)
+      }}>-</button>
+      <br />
+      <br />
     </>
   )
 }

@@ -6,7 +6,6 @@ import SmartLampu from './SmartLampu'
 function App() {
   return (
     <>
-      <h1>Hello Dunia</h1>
       <Count/>
       <SmartLampu/>
     </>
