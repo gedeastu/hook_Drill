@@ -18,12 +18,15 @@ const icons = {
 
 
 export default function AnimalShow({type}) {
+
   const [like,setLike] = useState(false)
+
   const handleLike = () => {
     setLike(
         (previous) => previous = !previous
     )
   }
+  
   return (
     <>
     <li>
