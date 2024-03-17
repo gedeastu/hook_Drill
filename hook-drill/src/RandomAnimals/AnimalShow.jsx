@@ -26,7 +26,7 @@ export default function AnimalShow({type}) {
         (previous) => previous = !previous
     )
   }
-  
+
   return (
     <>
     <li>
@@ -34,7 +34,7 @@ export default function AnimalShow({type}) {
         icons[type]
     } alt="" width={"100px"}/>
     <button onClick={handleLike}>
-        <img src={heart} alt="" width={(like) ? "50px" : "100px"}/>
+        <img src={heart} alt="" width={(like) ? "100px" : "50px"}/>
     </button>
     </li>
     </>

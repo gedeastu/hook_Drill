@@ -11,10 +11,10 @@ function RandomAnimals() {
   
   const handleClick = () => {
     setAnimals(
-        (previous)=>([
+        (previous)=>[
             ...previous,
             getRandomAnimal()
-        ])
+        ]
     )
   }
   
