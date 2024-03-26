@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Count/>
-      <SmartLampu/>
-      <RandomAnimals/>
+      {/* <SmartLampu/> */}
+      {/* <RandomAnimals/> */}
     </>
   )
 }

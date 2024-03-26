@@ -17,9 +17,9 @@ function Count() {
 
   //and if [] array is has value from state or anywhere, 
   //the console will render while the action is triggered
-  //   useEffect(()=>{
-  //     console.log(count)
-  //   },[count])
+    useEffect(()=>{
+      console.log(count)
+    },[count])
   return (
     <>
     <h1>{desc}</h1>
